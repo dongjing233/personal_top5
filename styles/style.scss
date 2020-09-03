@@ -1,0 +1,268 @@
+$color1: rgb(255,100,100);
+$color2:rgb(229,162,128);
+$color3:#7d0633;
+$color4:#fbdcc4;
+$color5:#ff8e6e;
+$textcolor:rgb(30,30,30);
+$a:80%;
+$b:13%;
+$containera:100%;
+$kuanga:70%;
+$kuangb:40%;
+$photoa:40%;
+$photob:100%;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@mixin flexcenter {
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.container1{
+    width: $containera;
+    height: $containera;
+    background-color:$color4;
+    @include flexcenter();
+}
+
+.container2{
+    width: $containera;
+    height: $containera;
+    background-color:$color1;
+    @include flexcenter();
+}
+
+.container3{
+    width: $containera;
+    height: $containera;
+    background-color:$color2;
+    @include flexcenter();
+}
+
+.container4{
+    width: $containera;
+    height: $containera;
+    background-color:$color3;
+    @include flexcenter();
+}
+
+.container5{
+    width: $containera;
+    height: $containera;
+    background-color:$color5;
+    @include flexcenter();
+}
+
+
+    .kuang{
+        width:$kuanga;
+        height:$kuangb;
+        background-color:white;
+        margin: auto;
+        display:flex;
+        justify-content: baseline;
+        align-items:center;
+    }
+    .photo1{
+        width:$photoa;
+        height:$photob;
+        background: url("../images/photo1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo2{
+        width:$photoa;
+        height:$photob;
+        background: url("../images/photo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo3{
+        width:$photoa;
+        height:$photob;
+        background: url("../images/photo3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo4{
+        width:$photoa;
+        height:$photob;
+        background: url("../images/photo4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .photo5{
+        width:$photoa;
+        height:$photob;
+        background: url("../images/photo5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .textbox{
+        width:60%;
+        height:80%;
+    }
+
+    .text{
+        width:80%;
+        height:100%;
+        font-family: 'Arvo', serif;
+        line-height:250%;
+        font-size: 15pt;
+        @include flexcenter();
+    }
+
+
+h1{
+    color: $color3;
+    font-size: 50pt;
+    padding:2%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing:2px;
+    @include flexcenter();
+}
+
+body{
+background-color:$color2;
+}
+
+
+
+
+.chart{
+    width:90%;
+    height:$a;
+    margin: auto;
+    display:flex;
+    justify-content: baseline;
+    align-items:baseline ;
+    cursor:url("../images/before.png"), auto;
+
+}
+
+.column1{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/text1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+    .column1:hover{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/photo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+.column2{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/text2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+  .column2:hover{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/photo2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+
+.column3{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/text3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+  .column3:hover{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/photo3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+.column4{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/text4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+  .column4:hover{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/photo4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+.column5{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/text5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+  .column5:hover{
+    width: 17%;
+    height: 100%;
+    margin: auto;
+    @include flexcenter();
+    background: url("../images/photo5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:url("../images/after.png"), auto;
+  }
+
+back{
+    position:fixed;
+    top:5%;
+    left:5%;
+}

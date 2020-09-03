@@ -1,0 +1,407 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  background-color: #fbdcc4;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  background-color: #ff6464;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container3 {
+  width: 100%;
+  height: 100%;
+  background-color: #e5a280;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container4 {
+  width: 100%;
+  height: 100%;
+  background-color: #7d0633;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container5 {
+  width: 100%;
+  height: 100%;
+  background-color: #ff8e6e;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kuang {
+  width: 70%;
+  height: 40%;
+  background-color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo1 {
+  width: 40%;
+  height: 100%;
+  background: url("../images/photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo2 {
+  width: 40%;
+  height: 100%;
+  background: url("../images/photo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo3 {
+  width: 40%;
+  height: 100%;
+  background: url("../images/photo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo4 {
+  width: 40%;
+  height: 100%;
+  background: url("../images/photo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo5 {
+  width: 40%;
+  height: 100%;
+  background: url("../images/photo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textbox {
+  width: 60%;
+  height: 80%;
+}
+
+.text {
+  width: 80%;
+  height: 100%;
+  font-family: 'Arvo', serif;
+  line-height: 250%;
+  font-size: 15pt;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #7d0633;
+  font-size: 50pt;
+  padding: 2%;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: #e5a280;
+}
+
+.chart {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  cursor: url("../images/before.png"), auto;
+}
+
+.column1 {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/text1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column1:hover {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/photo1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column2 {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/text2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column2:hover {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/photo2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column3 {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/text3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column3:hover {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/photo3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column4 {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/text4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column4:hover {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/photo4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column5 {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/text5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+.column5:hover {
+  width: 17%;
+  height: 100%;
+  margin: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/photo5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: url("../images/after.png"), auto;
+}
+
+back {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+/*# sourceMappingURL=style.css.map */
