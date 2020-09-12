@@ -179,8 +179,14 @@ h1 {
           align-items: center;
 }
 
+footer {
+  font-family: 'Anton', sans-serif;
+  color: #7d0633;
+  line-height: 600%;
+}
+
 body {
-  background-color: #e5a280;
+  background-image: url("../images/background.png");
 }
 
 .chart {
@@ -190,12 +196,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: url("../images/before.png"), auto;
 }
 
@@ -216,7 +222,10 @@ body {
   background: url("../images/text1.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .column1:hover {
@@ -236,6 +245,7 @@ body {
   background: url("../images/photo1.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -256,6 +266,7 @@ body {
   background: url("../images/text2.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -276,6 +287,7 @@ body {
   background: url("../images/photo2.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -296,6 +308,7 @@ body {
   background: url("../images/text3.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -316,6 +329,7 @@ body {
   background: url("../images/photo3.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -336,6 +350,7 @@ body {
   background: url("../images/text4.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -356,6 +371,7 @@ body {
   background: url("../images/photo4.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -376,6 +392,7 @@ body {
   background: url("../images/text5.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -396,6 +413,7 @@ body {
   background: url("../images/photo5.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: center;
   cursor: url("../images/after.png"), auto;
 }
 
@@ -403,5 +421,10 @@ back {
   position: fixed;
   top: 5%;
   left: 5%;
+}
+
+back:hover {
+  -webkit-filter: drop-shadow(16px 16px 16px white);
+          filter: drop-shadow(16px 16px 16px white);
 }
 /*# sourceMappingURL=style.css.map */
